@@ -69,7 +69,7 @@ For example, if you want to train TranCS at τ = 10%, please run the following c
 python train.py --rate 0.1 --device 0
 ```
 Your re-trained models (.pth) will be saved in the `results folder`, it should contains `info.pth`, `model.pth`, `optimizer.pth` and `log.txt`, respectively represents the `result` in the training process (in order to start training from the breakpoint), `model parameters` and optimizer information, while log.txt saves the sampling and reconstruction `performance (PSNR, SSIM)` of the verification after each training epoch.  
-- 2023.12.03: 更新项目文档结构
+- 2023.12.03: 添加安装说明和依赖项列表
 Partial visual comparisons of reconstructed images by multiple methods at sampling rates τ = 0.04 and 0.25.  
 Please refer to our paper for more results and comparisions.  
 <div align=center><img width="600" height="350" src="https://github.com/myheuf/TransCS/blob/master/imgs/demo.png"/></div>
